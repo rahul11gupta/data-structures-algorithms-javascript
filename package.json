@@ -4,7 +4,9 @@
   "description": "This repository contains popular data structures and algorithms implemented in Javascript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./src/**/* --fix",
+    "test": "jest",
+    "deploy": "npm run lint && npm run test --coverage"
   },
   "repository": {
     "type": "git",
@@ -29,5 +31,13 @@
   "bugs": {
     "url": "https://github.com/rahulSlash/data-structures-algorithms-javascript/issues"
   },
-  "homepage": "https://github.com/rahulSlash/data-structures-algorithms-javascript#readme"
+  "homepage": "https://github.com/rahulSlash/data-structures-algorithms-javascript#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.10.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^4.3.0",
+    "jest": "^26.4.2"
+  }
 }
