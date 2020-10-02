@@ -1,0 +1,33 @@
+{
+  "name": "data-structures-algorithms-javascript",
+  "version": "1.0.0",
+  "description": "This repository contains popular data structures and algorithms implemented in Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulSlash/data-structures-algorithms-javascript.git"
+  },
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "computer-science",
+    "cs",
+    "javascript",
+    "js-algorithms",
+    "js-datastructures",
+    "javascript-algorithms",
+    "javascript-datastructures",
+    "js-interview",
+    "js-interview-preparation",
+    "interview-questions"
+  ],
+  "author": "Rahul Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahulSlash/data-structures-algorithms-javascript/issues"
+  },
+  "homepage": "https://github.com/rahulSlash/data-structures-algorithms-javascript#readme"
+}
