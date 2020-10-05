@@ -37,3 +37,7 @@ Data Structures that we will discuss in this repository are:
 - [Advanced Lists](https://github.com/rahulSlash/data-structures-algorithms-javascript)  
 - [Other Advanced Data Structures](https://github.com/rahulSlash/data-structures-algorithms-javascript)  
 ---
+An **algorithm** is a set of finite and well-defined instructions, typically to solve a class of problems or to perform a computation. Algorithms are a very important topic in Computer Science because they help software developers create efficient and error free programs. The most important thing to remember about algorithms is that there can be many different algorithms for the same problem, but some are much better than others.
+
+Computers are incredibly fast at manipulating, moving and looking through data. However the amount of data computers use is often so large that it doesn't matter how fast the computer is, it will take it far too long to examine every single piece of data (companies like Google, Facebook and Twitter routinely process billions of things per day, and in some cases, per minute!). This is where algorithms come in. If a computer is given a better algorithm to process the data then it doesn't matter how much information it has to look through, it will still be able to do it in a reasonable amount of time. [More Reading...](https://csfieldguide.org.nz/en/chapters/algorithms/)
+
