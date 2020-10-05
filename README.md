@@ -60,14 +60,14 @@ Here is the proof:
 | 10^6               | ~55 hr   | ~5.5 hr  |
 | 10^9               | ~6.3 yr  | ~8.3 hr  |
 
-**Worst, Average and Best Cases**
+### Worst, Average and Best Cases
 
 Any algorithm can be analysed using 3 cases:
-1. Best Case - Refers to **Minimum time** taken by the algorithm to complete
-2. Average Case - Refers to **Average time** taken by the algorithm to complete
-3. Worst Case - Refers to **Maximum time** taken by the algorithm to complete
+1. **Best Case** - Refers to **Minimum time** taken by the algorithm to complete
+2. **Average Case** - Refers to **Average time** taken by the algorithm to complete
+3. **Worst Case** - Refers to **Maximum time** taken by the algorithm to complete
 
-For a linear search algorithm, in which we search a value in an array one by one here are the three cases:
+For a **linear search algorithm**, in which we search a value in an array one by one here are the three cases:
 
 Let us assume we have an array of *n* items and we have to search for the value *x*
 
@@ -79,3 +79,7 @@ Let us assume we have an array of *n* items and we have to search for the value 
 
 `Average Case for Linear Search = Σ Θ(i)/(n+1), where 1<= i<= n+1`
 `=Θ(n)`
+
+Most of the times, we do worst case analysis to analyze algorithms. In the worst analysis, we guarantee an upper bound on the running time of an algorithm which is a good metric to determine the performance of an algorithm in a real world scenario. 
+The average case analysis is not easy to do in most of the practical cases and it is rarely done. In the average case analysis, we must know (or predict) the mathematical distribution of all possible inputs. 
+The Best Case analysis is useless. Guaranteeing a lower bound on an algorithm doesn’t provide any information as in the worst case, an algorithm may take years to run.
