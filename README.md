@@ -103,24 +103,24 @@ Mathematically it is represented as:
 Mathematically it is represented as:
  `Ω(g(n)) = {f(n): there exist positive constants c and n0 such that 0 <= c*g(n) <= f(n) for all n >= n0}`
 
- **Properties of Asymptotic Notations :**
+**Properties of Asymptotic Notations :**
 
- 1. **General Property**
+ 1. **General Property:** 
  If f(n) is O(g(n)) then v*f(n) is also O(g(n)) ; where v is a constant.
  Similarly this property is true for both Θ and Ω notation.
 
- 2. **Reflexive Property**
+ 2. **Reflexive Property:** 
  If f(n) is given f(n) = O(g(n)).
  Similarly this property is true for both Θ and Ω notation.
 
- 3. **Transitive Property**
+ 3. **Transitive Property:** 
  If f(n) is O(g(n)) and g(n) is O(h(n)) then f(n) = O(h(n)).
  Similarly this property is true for both Θ and Ω notation.
 
- 4. **Symmetric Property**
+ 4. **Symmetric Property:** 
  If f(n) is Θ(g(n)) then g(n) is Θ(f(n)).
  This property is not true for both O and Ω notation.
 
- 5.**Transpose Symmetric Properties**
+ 5. **Transpose Symmetric Property:** 
  If f(n) is O(g(n)) then g(n) is Ω (f(n)).
  This property only satisfies for O and Ω notations.
