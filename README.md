@@ -60,4 +60,22 @@ Here is the proof:
 | 10^6               | ~55 hr   | ~5.5 hr  |
 | 10^9               | ~6.3 yr  | ~8.3 hr  |
 
+**Worst, Average and Best Cases**
 
+Any algorithm can be analysed using 3 cases:
+1. Best Case - Refers to **Minimum time** taken by the algorithm to complete
+2. Average Case - Refers to **Average time** taken by the algorithm to complete
+3. Worst Case - Refers to **Maximum time** taken by the algorithm to complete
+
+For a linear search algorithm, in which we search a value in an array one by one here are the three cases:
+
+Let us assume we have an array of *n* items and we have to search for the value *x*
+
+**Best Case** - In the linear search problem, the best case occurs when x is present at the first location. The number of operations in the best case is constant (not dependent on n). So time complexity in the best case would be Θ(1) 
+
+**Worst Case** - For Linear Search, the worst case happens when the element to be searched (*x* in the above code) is not present in the array. In such a scenario *x* is compared with all the elements of array one by one. Therefore, the worst case time complexity of linear search would be Θ(n).
+
+**Average Case** - In average case analysis, we take all possible inputs and calculate computing time for all of the inputs. Sum all the calculated values and divide the sum by total number of inputs. We must know (or predict) distribution of cases. For the linear search problem, let us assume that all cases are uniformly distributed (including the case of *x* not being present in array). So we sum all the cases and divide the sum by (n+1).
+
+`Average Case for Linear Search = Σ Θ(i)/(n+1), where 1<= i<= n+1`
+`=Θ(n)`
