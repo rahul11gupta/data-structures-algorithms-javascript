@@ -11,4 +11,4 @@ All contributions to this repository is welcomed with ❤️
 
 A **data structure** is a particular way of organizing data in a computer so that it can be used effectively. This is particularly important when we have to deal with large amounts of data. If we do not posses the knowledge of common data structures, our programs will consume a lot of space in the memory and will be very difficult to access. 
 
-For example, suppose we have to store a bank statement of customer. By using arrays we can store it easily. This helps in reducing the use of number of variables as we don’t need to create a separate variable for every credit or debot. All records can be accessed by simply traversing the array. 
+For example, suppose we have to store a bank statement of a customer. By using arrays we can store it easily. This helps in reducing the use of number of variables as we don’t need to create a separate variable for every credit or debit. All records can be accessed by simply traversing the array. 
