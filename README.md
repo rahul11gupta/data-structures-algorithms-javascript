@@ -83,3 +83,44 @@ Let us assume we have an array of *n* items and we have to search for the value 
 Most of the times, we do worst case analysis to analyze algorithms. In the worst analysis, we guarantee an upper bound on the running time of an algorithm which is a good metric to determine the performance of an algorithm in a real world scenario. 
 The average case analysis is not easy to do in most of the practical cases and it is rarely done. In the average case analysis, we must know (or predict) the mathematical distribution of all possible inputs. 
 The Best Case analysis is useless. Guaranteeing a lower bound on an algorithm doesn’t provide any information as in the worst case, an algorithm may take years to run.
+
+### Asymptotic Notations
+
+These notations are mathematical functions which determine the time complexity of an algorithm. The following 3 asymptotic notations are mostly used to represent time complexity of algorithms.
+
+**Θ Notation:** - Theta Notation is used to find the average case time complexity of an algorithm. It represents the most accurate asymptotic behavior. It bounds a function from above and below.
+
+ Mathematically it is represented as:
+ `Θ(g(n)) = {f(n): there exist positive constants c1, c2 and n0 such that 0 <= c1*g(n) <= f(n) <= c2*g(n) for all n >= n0}`
+
+**Big O Notation:** - Big O Notation is used to find the worst case time complexity of an algorithm. It bounds a function only from above, which means Big O function is the maximum time taken by the algorithm to complete.
+
+Mathematically it is represented as:
+ `O(g(n)) = {f(n): there exist positive constants c and n0 such that 0 <= f(n) <= c*g(n) for all n >= n0}`
+
+**Ω Notation:** - Omega Notation is used to find the best case time complexity of an algorithm. It bounds a function only from below, which means Ω function is the minimum time taken by the algorithm to complete. As discussed, the best case performance of an algorithm is generally not useful, the Omega notation is the least used notation among all three.
+
+Mathematically it is represented as:
+ `Ω(g(n)) = {f(n): there exist positive constants c and n0 such that 0 <= c*g(n) <= f(n) for all n >= n0}`
+
+ **Properties of Asymptotic Notations :**
+
+ 1. **General Property**
+ If f(n) is O(g(n)) then v*f(n) is also O(g(n)) ; where v is a constant.
+ Similarly this property is true for both Θ and Ω notation.
+
+ 2. **Reflexive Property**
+ If f(n) is given f(n) = O(g(n)).
+ Similarly this property is true for both Θ and Ω notation.
+
+ 3. **Transitive Property**
+ If f(n) is O(g(n)) and g(n) is O(h(n)) then f(n) = O(h(n)).
+ Similarly this property is true for both Θ and Ω notation.
+
+ 4. **Symmetric Property**
+ If f(n) is Θ(g(n)) then g(n) is Θ(f(n)).
+ This property is not true for both O and Ω notation.
+
+ 5.**Transpose Symmetric Properties**
+ If f(n) is O(g(n)) then g(n) is Ω (f(n)).
+ This property only satisfies for O and Ω notations.
