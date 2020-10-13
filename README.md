@@ -126,5 +126,5 @@ Mathematically it is represented as:
  This property only satisfies for O and Ω notations.
  
  ### Big-O Cheatsheet
- To save your time hunting, here is a useful poster showing time and space complexities of famous data structures and algorithms provided by [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)  
+ To save your time, here is a useful poster showing time and space complexities of famous data structures and sorting algorithms provided by [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)  
  ![Big-O Cheatsheet](https://github.com/rahulSlash/data-structures-algorithms-javascript/blob/master/big-o-cheat-sheet-poster.png "Big-O Cheatsheet")
