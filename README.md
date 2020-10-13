@@ -124,3 +124,6 @@ Mathematically it is represented as:
  5. **Transpose Symmetric Property:** 
  If f(n) is O(g(n)) then g(n) is Ω (f(n)).
  This property only satisfies for O and Ω notations.
+ 
+ ### Big-O Cheatsheet
+ To save your time hunting, here is a useful poster showing time and space complexities of famous data structures and algorithms provided by [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
